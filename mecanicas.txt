@@ -1,0 +1,24 @@
+Tematica{
+	Apresentar ECT{
+		Mostrar quais materias serão vistas no primeiro semestre e quais são seus assuntos
+		Mostrar as instalações da ECT
+		Objetivo{
+			Acertar uma quantidade minima de questões nas avaliações
+				Avaliações{
+					Questionarios de 4-5 questões cujo se precisa acertar uma pontuação de 5
+				}
+		Auxilios{
+			Você pode obter dicas de outros alunos (direções, power ups ou easter eggs)
+				Power Ups{
+					Lista de powers ups pensados{
+						Salgado Secreto do Amigão boost de +1 anotação
+						Joias do Infinito boost de +1 anotação em quimica geral
+						Bem pre-calculado boost de +2 anotações em calculo 1
+					}
+			}
+			Você pode fazer anotações em aula
+				Anotações{
+					Você pode fazer 3 anotações por unidade e essas anotações estarão disponiveis pra você durante a prova
+				}
+
+	}

@@ -1,0 +1,15 @@
+Você é um calouro recem chegado a Escola de Ciências e Tecnologia, está apenas começando sua vida academica
+e precisa enfrentar o perigoso primeiro semestre do Bacharelado de Ciências e Tecnologia e para isso deve contar
+com a ajuda dos outros estudantes e seguir os ensinamentos dos professores para responder e se dar bem nas avaliações
+
+Seu objetivo é passar em todas as materias do primeiro semestre:
+-Pre Calculo
+-Vetores e Geometria Analitica
+-Quimica Geral
+-Calculo 1
+
+* Para isso precisa responder corretamente as questões das PROVAS e evitar se dar mal
+* Cada prova tem de 5 a 4 questões que cada uma valem 2,0 a 2,5 pontos na media
+* Assista as aulas dos professores e faça anotações para garantir vantagens durante as provas
+* Pegue dicas conversando com os outros alunos e lendo o QUADRO DE AVISOS
+* Você precisa ter media igual a 5 para conseguir passar para o proximo semestre assim terminando o jogo
