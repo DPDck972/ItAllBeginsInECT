@@ -8,7 +8,7 @@ var texto_regrasX = 50, texto_regrasY = 150;
 var tela = 0;
 var mousetx = 50,mousety = 50;
 
-//TEXTO
+//TEXTOS
 var instrucoes = ("\t\t\t\t\tVocê é um calouro recem chegado a Escola de Ciências e Tecnologia, está apenas começando sua vida academica\n\t\t\t\te precisa enfrentar o perigoso primeiro semestre do Bacharelado de Ciências e Tecnologia e para isso deve contar\n\t\t\tcom a ajuda dos outros estudantes e seguir os ensinamentos dos professores para responder e se dar bem nas avaliações");
 var instrucoesobjetivos = ("Seu objetivo é passar em todas as materias do primeiro semestre:\n-Pre Calculo\n-Vetores e Geometria Analitica\n-Quimica Geral\n-Calculo 1");
 var intrucoesregras = ("* Para isso precisa responder corretamente as questões das PROVAS e evitar se dar mal\n* Cada avaliação tem de 5 a 4 questões que cada uma valem 2,0 a 2,5 pontos na media\n* Assista as aulas dos professores e faça anotações para garantir vantagens durante as PROVAS\n* Pegue dicas conversando com os outros alunos e lendo o QUADRO DE AVISOS\n* Você precisa ter media igual a 5 para conseguir passar para o proximo semestre assim terminando o jogo");
@@ -35,6 +35,7 @@ function setup() {
 }
 
 //TEMPLATE BOTÃO RETORNAR
+//O BOTÃO RETORNAR FOI CRIADO FORA DO DRAW() POIS SE REPETE EM TODAS AS TELAS
 function retornar(){
   textAlign(LEFT,LEFT);
   fill(0,0,40)
@@ -87,6 +88,7 @@ function mouseClicked(){
 
 //TELAS
 function draw() {
+  //TELA INICIAL
   if(tela == 0){
     background(backgorund1);
     image(ImgTitulo, 430,-40,600,300);
@@ -94,6 +96,7 @@ function draw() {
     image(Imgregrasbutton,xBtnMenu-5,yRegras-10,tamImgX+95,tamImgY+150);
     image(Imgcreditosbutton,xBtnMenu-10,yCreditos-25,tamImgX+45,tamBtnY+170);
   }
+  //TELA DE PLAY
   else if(tela == 1){
     background(255);
 
@@ -120,6 +123,7 @@ function draw() {
       mousety += 3;
     }
   }
+  //TELA DE REGRAS
   else if(tela == 2){
     background(10,10,100);
     noFill();
@@ -134,6 +138,7 @@ function draw() {
     retornar();
     image(ImgTitulo, Tela_Largura/2.79,-23,400,150);
   }
+  //TELA DE CREDITOS
   else if(tela == 3){
     background(10,10,100);
     noFill();
